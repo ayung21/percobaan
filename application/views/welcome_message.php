@@ -86,4 +86,45 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 </body>
+<script>
+
+        // var _data= [
+        //   { "Id": 1, "name": "xxx", "age": 22 },
+        //   { "Id": 1, "name": "yyy", "age": 15 },
+        //   { "Id": 2, "name": "aaa", "age": 10 },
+        //   { "Id": 2, "name": "bbb", "age": 5 },
+        //   { "Id": 5, "name": "zzz", "age": 59 },
+        //   { "Id": 6, "name": "ccc", "age": 15 },
+        //   { "Id": 6, "name": "ddd", "age": 15 },
+        // ];
+          
+        // var hasil = [];
+        // var _hasil = _data.reduce(function(result, current) {
+        //     hasil[current.Id] = result[current.Id] || [];
+        //     hasil[current.Id].push(current);
+        //     return hasil;
+        // }, {});
+        
+        // var hasilku = [],ages = {}, _ages = 0,id = 0,hapus = [],urutan = 0;
+        // _hasil.forEach(async (details) => {
+        //   details.forEach(async (_details) => {
+        //     if(id == _details.Id){
+        //       hasilku.push({'ID':_details.Id, 'Name': _details.name, 'Age' : (_ages + _details.age)});
+        //       hapus.push(urutan-1);
+        //     }else{
+        //       hasilku.push({'ID':_details.Id, 'Name': _details.name, 'Age' : _details.age});
+        //       id = _details.Id;
+        //       _ages = _details.age;
+        //     }
+        //     urutan++;
+        //   });
+        // });
+
+        // hapus.forEach(async (_hapus) => {
+        //   delete hasilku[_hapus];
+        // });
+        
+        // hasilku.forEach(async (tester) => {
+        // });
+</script>
 </html>
